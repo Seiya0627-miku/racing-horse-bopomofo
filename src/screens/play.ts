@@ -60,7 +60,12 @@ export function renderPlay(root: HTMLElement, nav: Nav): void {
           // 1声は本来記号を書かないので表示しない
           zy.append(...filled[i].filter((sym) => sym !== 'ˉ').map((sym) =>
             h('span', { class: sym.match(/[ˊˇˋ˙]/) ? 'tone' : '', text: sym })));
-          if (current && current.syllableIndex === i) zy.append(h('span', { class: 'slot', text: '？' }));
+          // まだ答えていない部分: 今の問題は「？」、残りは下線1本ずつ
+          const remaining = questions.filter((q) => q.syllableIndex === i).length - filled[i].length;
+          for (let n = 0; n < remaining; n++) {
+            const isCurrent = n === 0 && current?.syllableIndex === i;
+            zy.append(h('span', { class: isCurrent ? 'slot' : 'blank', text: isCurrent ? '？' : '' }));
+          }
           return h('div', { class: `syl${current?.syllableIndex === i ? ' active' : ''}` }, [
             h('div', { class: 'char', text: s.char }),
             zy,

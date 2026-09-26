@@ -1,3 +1,5 @@
+import { SPEECH_RATE } from '../config.ts';
+
 /**
  * 読み上げ。音声ファイルが指定されていればそれを、無ければブラウザの読み上げ機能を使う。
  * iOS の制限により、必ずボタンのタップ処理の中から呼ぶこと。
@@ -31,6 +33,6 @@ function speakWithTts(text: string): void {
   const u = new SpeechSynthesisUtterance(text);
   u.lang = 'zh-TW';
   if (voice) u.voice = voice;
-  u.rate = 0.75; // 学習者向けにゆっくり
+  u.rate = SPEECH_RATE;
   speechSynthesis.speak(u);
 }

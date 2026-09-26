@@ -119,18 +119,27 @@ button { font: inherit; touch-action: manipulation; }
 .word { display: flex; justify-content: center; gap: 8px; }
 .syl {
   flex: 1;
-  max-width: 88px;
+  max-width: 96px;
   background: var(--card);
   border-radius: 12px;
-  padding: 6px 4px;
+  padding: 6px 2px;
   text-align: center;
   border: 3px solid transparent;
 }
 .syl.active { border-color: var(--gold); }
 .syl .char { font-size: 1.9rem; font-weight: 700; }
-.syl .zy { font-size: 1.3rem; min-height: 1.6em; color: var(--green); font-weight: 700; }
+.syl .zy { font-size: 1.1rem; min-height: 1.6em; color: var(--green); font-weight: 700; white-space: nowrap; }
 .syl .zy .tone { font-size: 1.1rem; }
 .syl .zy .slot { color: var(--gold); animation: blink 1s infinite; }
+/* 残りの問題1つ = 下線1本。隣とつながらないよう間を空ける */
+.syl .zy .blank {
+  display: inline-block;
+  width: 0.7em;
+  height: 1.1em;
+  margin: 0 0.1em;
+  border-bottom: 3px solid #c4c9c5;
+  vertical-align: -0.15em;
+}
 @keyframes blink { 50% { opacity: 0.3; } }
 
 .bottom { margin-top: auto; display: flex; flex-direction: column; gap: 10px; }
