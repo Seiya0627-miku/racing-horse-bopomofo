@@ -1,0 +1,286 @@
+[
+  {
+    "id": "golden-sixty",
+    "nameZh": "金鎗六十",
+    "nameEn": "Golden Sixty",
+    "nameJa": "ゴールデンシックスティ",
+    "syllables": [
+      {
+        "char": "金",
+        "zhuyin": "ㄐㄧㄣ"
+      },
+      {
+        "char": "鎗",
+        "zhuyin": "ㄑㄧㄤ"
+      },
+      {
+        "char": "六",
+        "zhuyin": "ㄌㄧㄡˋ"
+      },
+      {
+        "char": "十",
+        "zhuyin": "ㄕˊ"
+      }
+    ],
+    "image": {
+      "src": "images/horses/golden-sixty.jpg",
+      "credit": "Will629",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Sixty_Retirement_with_Vincent_Ho_and_Francis_Lui_20240922.jpg"
+    }
+  },
+  {
+    "id": "romantic-warrior",
+    "nameZh": "浪漫勇士",
+    "nameEn": "Romantic Warrior",
+    "nameJa": "ロマンチックウォリアー",
+    "syllables": [
+      {
+        "char": "浪",
+        "zhuyin": "ㄌㄤˋ"
+      },
+      {
+        "char": "漫",
+        "zhuyin": "ㄇㄢˋ"
+      },
+      {
+        "char": "勇",
+        "zhuyin": "ㄩㄥˇ"
+      },
+      {
+        "char": "士",
+        "zhuyin": "ㄕˋ"
+      }
+    ],
+    "image": {
+      "src": "images/horses/romantic-warrior.jpg",
+      "credit": "Hatomizinko",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%83%83%E3%82%AF%E3%82%A6%E3%82%A9%E3%83%AA%E3%82%A2%E3%83%BC_%E5%AE%89%E7%94%B0%E8%A8%98%E5%BF%B5%E5%85%A5%E7%B7%9A%E6%99%82.jpg"
+    }
+  },
+  {
+    "id": "ka-ying-rising",
+    "nameZh": "嘉應高昇",
+    "nameEn": "Ka Ying Rising",
+    "nameJa": "カーインライジング",
+    "syllables": [
+      {
+        "char": "嘉",
+        "zhuyin": "ㄐㄧㄚ"
+      },
+      {
+        "char": "應",
+        "zhuyin": "ㄧㄥˋ"
+      },
+      {
+        "char": "高",
+        "zhuyin": "ㄍㄠ"
+      },
+      {
+        "char": "昇",
+        "zhuyin": "ㄕㄥ"
+      }
+    ],
+    "image": {
+      "src": "images/horses/ka-ying-rising.jpg",
+      "credit": "Will629",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ka_Ying_Rising_20250427_Chairman%27s_Sprint_Prize.jpg"
+    }
+  },
+  {
+    "id": "beauty-generation",
+    "nameZh": "美麗傳承",
+    "nameEn": "Beauty Generation",
+    "nameJa": "ビューティージェネレーション",
+    "syllables": [
+      {
+        "char": "美",
+        "zhuyin": "ㄇㄟˇ"
+      },
+      {
+        "char": "麗",
+        "zhuyin": "ㄌㄧˋ"
+      },
+      {
+        "char": "傳",
+        "zhuyin": "ㄔㄨㄢˊ"
+      },
+      {
+        "char": "承",
+        "zhuyin": "ㄔㄥˊ"
+      }
+    ],
+    "image": {
+      "src": "images/horses/beauty-generation.jpg",
+      "credit": "Lunarandsunny",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beauty_Generation.jpg"
+    }
+  },
+  {
+    "id": "fairy-king-prawn",
+    "nameZh": "靚蝦王",
+    "nameEn": "Fairy King Prawn",
+    "nameJa": "フェアリーキングプローン",
+    "syllables": [
+      {
+        "char": "靚",
+        "zhuyin": "ㄐㄧㄥˋ"
+      },
+      {
+        "char": "蝦",
+        "zhuyin": "ㄒㄧㄚ"
+      },
+      {
+        "char": "王",
+        "zhuyin": "ㄨㄤˊ"
+      }
+    ],
+    "image": {
+      "src": "images/horses/fairy-king-prawn.jpg",
+      "credit": "No machine-readable author provided. Goki assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fairy_King_Prawn20010603.jpg"
+    }
+  },
+  {
+    "id": "gold-fun",
+    "nameZh": "大運財",
+    "nameEn": "Gold-Fun",
+    "nameJa": null,
+    "syllables": [
+      {
+        "char": "大",
+        "zhuyin": "ㄉㄚˋ"
+      },
+      {
+        "char": "運",
+        "zhuyin": "ㄩㄣˋ"
+      },
+      {
+        "char": "財",
+        "zhuyin": "ㄘㄞˊ"
+      }
+    ],
+    "image": {
+      "src": "images/horses/gold-fun.jpg",
+      "credit": "Winteamb",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gold-Fun.jpg"
+    }
+  },
+  {
+    "id": "akeed-mofeed",
+    "nameZh": "事事為王",
+    "nameEn": "Akeed Mofeed",
+    "nameJa": "アキードモフィード",
+    "syllables": [
+      {
+        "char": "事",
+        "zhuyin": "ㄕˋ"
+      },
+      {
+        "char": "事",
+        "zhuyin": "ㄕˋ"
+      },
+      {
+        "char": "為",
+        "zhuyin": "ㄨㄟˊ"
+      },
+      {
+        "char": "王",
+        "zhuyin": "ㄨㄤˊ"
+      }
+    ],
+    "image": {
+      "src": "images/horses/akeed-mofeed.jpg",
+      "credit": "Winteamb",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horse_Akeed_Mofeed.JPG"
+    }
+  },
+  {
+    "id": "viva-pataca",
+    "nameZh": "爆冷",
+    "nameEn": "Viva Pataca",
+    "nameJa": "ヴィヴァパタカ",
+    "syllables": [
+      {
+        "char": "爆",
+        "zhuyin": "ㄅㄠˋ"
+      },
+      {
+        "char": "冷",
+        "zhuyin": "ㄌㄥˇ"
+      }
+    ],
+    "image": {
+      "src": "images/horses/viva-pataca.jpg",
+      "credit": "Felamu",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Viva_Pataca_20071209.JPG"
+    }
+  },
+  {
+    "id": "silent-witness",
+    "nameZh": "精英大師",
+    "nameEn": "Silent Witness",
+    "nameJa": "サイレントウィットネス",
+    "syllables": [
+      {
+        "char": "精",
+        "zhuyin": "ㄐㄧㄥ"
+      },
+      {
+        "char": "英",
+        "zhuyin": "ㄧㄥ"
+      },
+      {
+        "char": "大",
+        "zhuyin": "ㄉㄚˋ"
+      },
+      {
+        "char": "師",
+        "zhuyin": "ㄕ"
+      }
+    ],
+    "image": {
+      "src": "images/horses/silent-witness.jpg",
+      "credit": "Flamelai",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_Silent_Witness.jpg"
+    }
+  },
+  {
+    "id": "vengeance-of-rain",
+    "nameZh": "爪皇凌雨",
+    "nameEn": "Vengeance of Rain",
+    "nameJa": "ヴェンジェンスオブレイン",
+    "syllables": [
+      {
+        "char": "爪",
+        "zhuyin": "ㄓㄠˇ"
+      },
+      {
+        "char": "皇",
+        "zhuyin": "ㄏㄨㄤˊ"
+      },
+      {
+        "char": "凌",
+        "zhuyin": "ㄌㄧㄥˊ"
+      },
+      {
+        "char": "雨",
+        "zhuyin": "ㄩˇ"
+      }
+    ],
+    "image": {
+      "src": "images/horses/vengeance-of-rain.jpg",
+      "credit": "Felamu",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vengeance_of_Rain_20071209.JPG"
+    }
+  }
+]
