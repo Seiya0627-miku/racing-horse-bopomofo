@@ -19,6 +19,8 @@ export interface Horse {
   nameJa: string | null;
   syllables: HorseSyllable[];
   image: HorseImage | null;
+  /** 読み上げ用の文字。多音字を読み間違える場合に、同じ音の別の字に置き換える */
+  speechText?: string;
   audio?: string; // 音声ファイル（あれば読み上げ機能より優先）
 }
 

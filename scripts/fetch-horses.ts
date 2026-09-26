@@ -29,6 +29,7 @@ const USER_AGENT = 'BopomofoHorseQuiz/0.1 (personal learning game)';
 interface Overrides {
   exclude: string[]; // 除外する馬の id
   zhuyin: Record<string, string[]>; // id → 1文字ずつの注音
+  speechText: Record<string, string>; // id → 読み上げ用の文字（同音の別の字）
 }
 
 interface Candidate {
@@ -179,9 +180,9 @@ function toId(title: string): string {
 async function loadOverrides(): Promise<Overrides> {
   try {
     const json = JSON.parse(await readFile(OVERRIDES_PATH, 'utf8'));
-    return { exclude: json.exclude ?? [], zhuyin: json.zhuyin ?? {} };
+    return { exclude: json.exclude ?? [], zhuyin: json.zhuyin ?? {}, speechText: json.speechText ?? {} };
   } catch {
-    return { exclude: [], zhuyin: {} };
+    return { exclude: [], zhuyin: {}, speechText: {} };
   }
 }
 
@@ -241,6 +242,7 @@ async function main() {
       nameJa: names.ja,
       syllables,
       image,
+      ...(overrides.speechText[id] ? { speechText: overrides.speechText[id] } : {}),
     });
     warnings.push(...horseWarnings);
     console.log(`  ✓ ${names.zh}  ${syllables.map((s) => s.zhuyin).join(' ')}  (${c.title})`);

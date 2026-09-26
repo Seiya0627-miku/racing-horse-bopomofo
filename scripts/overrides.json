@@ -2,5 +2,8 @@
   "exclude": [],
   "zhuyin": {
     "ka-ying-rising": ["ㄐㄧㄚ", "ㄧㄥˋ", "ㄍㄠ", "ㄕㄥ"]
+  },
+  "speechText": {
+    "fairy-king-prawn": "靜蝦王"
   }
 }

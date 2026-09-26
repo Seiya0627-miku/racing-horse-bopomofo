@@ -26,7 +26,7 @@ export function renderPlay(root: HTMLElement, nav: Nav): void {
     let missedThisQuestion = false;
     let mistakesThisHorse = 0;
 
-    const sayName = () => speak(horse.nameZh, horse.audio);
+    const sayName = () => speak(horse.speechText ?? horse.nameZh, horse.audio);
 
     const word = h('div', { class: 'word' });
     const prompt = h('p', { class: 'prompt' });
