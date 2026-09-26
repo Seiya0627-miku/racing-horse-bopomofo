@@ -251,7 +251,9 @@ async function main() {
   await writeFile(OUT_JSON, JSON.stringify(horses, null, 2) + '\n', 'utf8');
   console.log(`\n${horses.length}頭を ${OUT_JSON} に保存しました。`);
   if (warnings.length > 0) {
-    console.log('\n⚠ 読みを確認してください（間違っていたら scripts/overrides.json で修正）:');
+    console.log('\n⚠ 多音字があります。scripts/overrides.json で修正できます:');
+    console.log('   ・クイズの注音が違う → "zhuyin"');
+    console.log('   ・読み上げの音が違う → "speechText"（同じ音で読みが1つしかない字に置き換える）');
     for (const w of warnings) console.log(`  ${w}`);
   }
 }
